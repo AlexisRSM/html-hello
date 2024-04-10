@@ -1,0 +1,84 @@
+ body {
+     margin: 5px;
+ }
+
+ /* To test divs */
+ div {
+     border: 2px solid red;
+     min-height: 10px;
+ }
+
+ .header {
+     /* something */
+     width: 100%;
+     margin: 5px;
+     text-align: center;
+ }
+
+ .mainContent {
+     margin: 5px;
+     ;
+     height: auto;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+
+ .firstContainer {
+     width: 500px;
+     height: 450px;
+     border: 2px black solid;
+     margin: 50px;
+     justify-content: center;
+
+ }
+
+ .fCdivisonOne {
+     width: 493px;
+     height: 20px;
+     margin: 2px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .fcLabelLeft {
+     display: inline-block;
+     /* Allows the div to resize according to the text written */
+ }
+
+ .fcLabelRight {
+     width: 8%;
+     margin: 0;
+     color: rgba(180, 180, 180, 0.924);
+ }
+
+
+ .fCdivisontwo {
+     /* Photo */
+     width: 493px;
+     height: 350px;
+     margin-left: 2px;
+     margin-right: 3px;
+     /*   align-items: center; */
+     overflow: hidden;
+ }
+
+ .fCdivisontwo img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     /*  display: block; */
+     /* background-position: center; */
+ }
+
+ .fCdivisonthree {
+     /* Description */
+     width: 493px;
+     height: 60px;
+     margin-top: 3px;
+     margin-left: 2px;
+     margin-right: 3px;
+     display: inline-block;
+ }
