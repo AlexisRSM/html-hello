@@ -1,0 +1,21 @@
+.wrapper_container{
+    display:flex;
+   /*  background-color:tomato; */
+}
+.common_dog{
+    padding:20px;
+    background-color: blue;
+    margin:15px;
+}
+.dog_one{
+    background-color: blueviolet;
+}
+.dog_two{
+    background-color: tomato;
+}
+.subline{
+    font-size: 25px;
+}
+.specific_subline{
+    font-size: 35px;
+}
